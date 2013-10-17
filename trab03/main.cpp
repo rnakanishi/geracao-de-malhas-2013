@@ -1,3 +1,10 @@
+/*
+ *	Created by
+ *	Rafael Umino Nakanishi	nusp 6793198
+ *	ICMC USP
+ *
+ */
+
 #include <vector>
 #include <map>
 #include "Meshadj.hpp"
