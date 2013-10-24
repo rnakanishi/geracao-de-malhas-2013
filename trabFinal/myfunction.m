@@ -64,4 +64,6 @@ function [U,S] = myfunction(filename)
 
     % Display the transformed coefficients.
     scattergram(S{2},[],S{3},j1);
+    
+    colormap(jet);
 end
