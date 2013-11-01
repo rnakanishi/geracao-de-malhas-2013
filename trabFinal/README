@@ -1,0 +1,5 @@
+Para uso das funções em matlab, é necessário linkar os pacotes 
+	- toolbox_graph
+	- toolbox_signal
+	- toolbox_general
+nos paths do matlab
