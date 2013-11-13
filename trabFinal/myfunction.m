@@ -1,4 +1,4 @@
-function [U,S] = myfunction(filename)
+function [property, wav1] = myfunction(filename)
 
     if nargin<1
         display('Usage: myfunction( <mesh_file> );');
@@ -76,9 +76,11 @@ function [U,S] = myfunction(filename)
     % scale j2.
     j1 = 23;
     img = scattergram(S{2},[]);
-    img = img{1};    
+    wav1 = img{1};    
     
-    imagesc(img(:,1:ceil(NN/(window_size/2))+1));
+    subplot(133);
+    wav1 = wav1(:,1:ceil(NN/(window_size/2))+1);
+    imagesc(wav1);
     title('Scattergram');
     pbaspect([1,1,1]);
 %     % Renormalize second order by dividing it by the first order and compute the
@@ -90,5 +92,5 @@ function [U,S] = myfunction(filename)
 %     scattergram(S{2},[],S{3},j1);
     
     colormap jet;
-%     saveas(h,['../figures/' filename(8:length(filename)-3) 'png'],'png');
+    saveas(h,['../figures/' filename(8:length(filename)-3) 'png'],'png');
 end

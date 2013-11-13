@@ -1,0 +1,39 @@
+12-Nov-2013 16:17:23
+
+MFCC Spectrogram
+Cost from 1 to 1: -3.8858e-15
+Cost from 1 to 2: 7.5642
+Cost from 1 to 3: 7.5731
+Cost from 1 to 4: 7.278
+Cost from 1 to 5: 7.5908
+Cost from 1 to 6: 10.6982
+Cost from 1 to 7: 9.6112
+Cost from 1 to 8: 10.0778
+Cost from 2 to 2: -3.7748e-15
+Cost from 2 to 3: 8.5307
+Cost from 2 to 4: 8.3881
+Cost from 2 to 5: 8.4289
+Cost from 2 to 6: 10.6422
+Cost from 2 to 7: 9.5462
+Cost from 2 to 8: 10.6679
+Cost from 3 to 3: -7.7716e-16
+Cost from 3 to 4: 7.1608
+Cost from 3 to 5: 7.4855
+Cost from 3 to 6: 10.9301
+Cost from 3 to 7: 9.3655
+Cost from 3 to 8: 10.5334
+Cost from 4 to 4: -3.3307e-16
+Cost from 4 to 5: 7.8666
+Cost from 4 to 6: 12.6402
+Cost from 4 to 7: 9.9888
+Cost from 4 to 8: 12.3448
+Cost from 5 to 5: -3.1086e-15
+Cost from 5 to 6: 10.6774
+Cost from 5 to 7: 9.8159
+Cost from 5 to 8: 11.0374
+Cost from 6 to 6: -2.2204e-15
+Cost from 6 to 7: 11.7924
+Cost from 6 to 8: 12.5255
+Cost from 7 to 7: -1.3323e-15
+Cost from 7 to 8: 11.4859
+Cost from 8 to 8: -3.2196e-15
